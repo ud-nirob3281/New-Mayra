@@ -1,0 +1,12 @@
+[2026-07-10T19:38:29.054Z] AGENT_UNREACHABLE enableAutoStart: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-10T19:38:29.055Z] AGENT_UNREACHABLE enableAutoStart: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-10T19:41:45.216Z] AGENT_UNREACHABLE openApplication: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-10T19:41:45.217Z] AGENT_UNREACHABLE createFile: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-10T19:43:26.747Z] AGENT_UNREACHABLE openApplication: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-10T19:43:33.595Z] AGENT_UNREACHABLE openApplication: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-10T19:43:53.547Z] AGENT_UNREACHABLE openApplication: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-10T19:44:01.644Z] AGENT_UNREACHABLE pasteClipboard: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-10T19:44:44.196Z] AGENT_UNREACHABLE openApplication: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-10T19:44:44.243Z] AGENT_UNREACHABLE pasteClipboard: Desktop agent is not running. Start it with: uvicorn desktop_agent.main:app --port 8765
+[2026-07-14T04:20:54.063Z] AGENT_UNREACHABLE clickOnText: Desktop agent timed out.
+[2026-07-14T04:21:02.525Z] AGENT_UNREACHABLE clickOnText: Desktop agent timed out.

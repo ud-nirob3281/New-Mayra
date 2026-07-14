@@ -1,0 +1,1134 @@
+[2026-07-10T19:37:51.207Z] APIKEY_SAVED
+[2026-07-10T19:38:08.879Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Female Bright","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-10T19:38:08.929Z] SETTINGS_UPDATED {"autoStart":true}
+[2026-07-10T19:38:29.053Z] EXECUTE enableAutoStart {}
+[2026-07-10T19:38:29.054Z] EXECUTE enableAutoStart {}
+[2026-07-10T19:41:45.214Z] EXECUTE openApplication {"name":"notepad"}
+[2026-07-10T19:41:45.216Z] EXECUTE createFile {"content":"uvicorn desktop_agent.main:app --port 8765","path":"Desktop/start_agent.txt"}
+[2026-07-10T19:43:26.746Z] EXECUTE openApplication {"name":"cmd"}
+[2026-07-10T19:43:33.595Z] EXECUTE openApplication {"name":"cmd"}
+[2026-07-10T19:43:53.547Z] EXECUTE openApplication {"name":"cmd.py"}
+[2026-07-10T19:44:01.643Z] EXECUTE pasteClipboard {"text":"uvicorn desktop_agent.main:app --port 8765"}
+[2026-07-10T19:44:44.195Z] EXECUTE openApplication {"name":"powershell"}
+[2026-07-10T19:44:44.242Z] EXECUTE pasteClipboard {"text":"uvicorn desktop_agent.main:app --port 8765"}
+[2026-07-10T19:48:58.698Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-10T19:49:10.222Z] EXECUTE openApplication {"name":"powershell"}
+[2026-07-10T19:50:07.947Z] EXECUTE writeCodeFile {"overwrite":true,"content":"import asyncio\nfrom playwright.async_api import async_playwright\n\nasync def run():\n    async with async_playwright() as p:\n        browser = await p.chromium.launch(headless=False)\n        page = await browser.new_page()\n        await page.goto(\"https://google.com\")\n        print(await page.title())\n        await browser.close()\n\nasyncio.run(run())","language":"python","path":"playwright_test.py"}
+[2026-07-10T19:50:56.889Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-10T19:53:09.185Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-10T19:53:15.646Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-10T19:53:32.935Z] EXECUTE browserSearch {"query":"জিসকো দোয়া মে মাঙ্গা"}
+[2026-07-10T19:53:39.911Z] EXECUTE browserClick {"selector":"#contents > ytd-video-renderer >> nth=1","description":"Play the second video in search results."}
+[2026-07-10T19:54:06.724Z] EXECUTE desktopBrowserOpen {"url":"https://www.youtube.com/watch?v=aYDeimUPVFw"}
+[2026-07-10T19:55:17.907Z] EXECUTE runPythonScript {"path":"playwright_test.py"}
+[2026-07-10T19:57:57.143Z] EXECUTE desktopBrowserOpen {"url":"https://youtube.com"}
+[2026-07-10T20:01:14.351Z] EXECUTE browserOpen {"url":"youtube.com"}
+[2026-07-10T20:01:38.055Z] EXECUTE readScreen {"max_chars":1500}
+[2026-07-10T20:04:11.819Z] EXECUTE readScreen {"max_chars":1500}
+[2026-07-10T20:06:06.368Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-10T20:07:15.476Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-10T20:07:33.799Z] EXECUTE browserClick {"selector":"#video-title > yt-formatted-string[aria-label^='Disco Deewane']","description":"second video on disco do mein manga search results"}
+[2026-07-10T20:07:33.798Z] EXECUTE browserSearch {"query":"disco do mein manga"}
+[2026-07-10T20:08:18.721Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-10T20:08:41.254Z] EXECUTE browserSearch {"query":"Disco Deewane"}
+[2026-07-10T20:08:44.015Z] EXECUTE browserClick {"description":"First video on Disco Deewane search results","selector":"ytd-video-renderer.style-scope:nth-of-type(1) #video-title"}
+[2026-07-10T20:08:48.923Z] EXECUTE browserMediaControl {"action":"pause"}
+[2026-07-10T20:08:58.575Z] EXECUTE browserSearch {"query":"hindi song Jisko Dua Mein Manga"}
+[2026-07-10T20:09:07.490Z] EXECUTE browserClick {"selector":"ytd-video-renderer.style-scope:nth-of-type(3) #video-title","description":"play third video result"}
+[2026-07-10T20:09:22.014Z] EXECUTE browserTabAction {"action":"close"}
+[2026-07-10T20:09:42.074Z] EXECUTE openApplication {"name":"gmail"}
+[2026-07-10T20:10:30.711Z] EXECUTE openApplication {"name":"audacity"}
+[2026-07-10T20:10:46.918Z] EXECUTE openApplication {"name":"calculator"}
+[2026-07-10T20:11:05.098Z] EXECUTE openApplication {"name":"calculator"}
+[2026-07-10T20:11:20.424Z] EXECUTE desktopBrowserType {"text":"100","selector":"num100Button"}
+[2026-07-10T20:11:38.059Z] EXECUTE pasteClipboard {"text":"100"}
+[2026-07-10T20:13:33.636Z] EXECUTE openApplication {"name":"calculator"}
+[2026-07-10T20:13:33.636Z] EXECUTE pasteClipboard {"text":"100"}
+[2026-07-10T20:14:01.964Z] EXECUTE pasteClipboard {"text":"100"}
+[2026-07-10T20:14:15.136Z] EXECUTE pasteClipboard {"text":"+200="}
+[2026-07-10T20:14:37.030Z] EXECUTE pasteClipboard {"text":"100"}
+[2026-07-10T20:14:46.636Z] EXECUTE pasteClipboard {"text":"+200"}
+[2026-07-10T20:14:56.843Z] EXECUTE pasteClipboard {"text":"="}
+[2026-07-10T20:15:07.114Z] EXECUTE pasteClipboard {"text":"100"}
+[2026-07-10T20:15:15.071Z] EXECUTE pasteClipboard {"text":"/3"}
+[2026-07-10T20:15:45.088Z] EXECUTE pasteClipboard {"text":"100*2="}
+[2026-07-10T20:15:58.125Z] EXECUTE pasteClipboard {"text":"/4"}
+[2026-07-10T20:16:34.218Z] EXECUTE pasteClipboard {"text":"400/3"}
+[2026-07-10T20:16:42.510Z] EXECUTE pasteClipboard {"text":"="}
+[2026-07-10T20:17:14.265Z] EXECUTE createFile {"content":"I love you নীরব","path":"Desktop/Mayra.txt"}
+[2026-07-10T20:18:26.817Z] EXECUTE createFile {"path":"C:/Users/mdnir/Desktop/Mayra.txt","content":"I love you নীরব"}
+[2026-07-10T20:19:08.878Z] EXECUTE createFile {"content":"I love you নীরব","path":"C:/Users/mdnir/OneDrive/Desktop/Mayra.txt"}
+[2026-07-10T20:22:29.091Z] EXECUTE openApplication {"name":"notepad"}
+[2026-07-10T20:24:25.062Z] EXECUTE readFile {"path":"C:\\Users\\mabir\\Desktop\\Myra\\My Text.txt"}
+[2026-07-10T20:27:50.436Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-10T20:28:02.750Z] EXECUTE brightnessDown {"amount":10}
+[2026-07-10T20:29:24.408Z] EXECUTE brightnessUp {"amount":10}
+[2026-07-10T20:30:16.239Z] EXECUTE deleteFile {"path":"Desktop/maya.txt"}
+[2026-07-10T20:31:00.185Z] EXECUTE deleteFile {"path":"C:/Users/mdnir/OneDrive/Desktop/maya.txt"}
+[2026-07-10T20:31:20.640Z] EXECUTE deleteFile {"path":"C:/Users/mdnir/OneDrive/Desktop/mayra.txt"}
+[2026-07-10T20:34:28.182Z] EXECUTE deleteFile {"path":"C:/Users/mdnir/OneDrive/Desktop/mayra.txt"}
+[2026-07-10T20:34:46.214Z] EXECUTE deleteFile {"path":"C:/Users/mdnir/OneDrive/Desktop/mytext.txt"}
+[2026-07-10T20:35:02.212Z] EXECUTE deleteFile {"path":"C:/Users/mdnir/OneDrive/Desktop/my text.txt"}
+[2026-07-10T20:36:22.626Z] EXECUTE deleteFile {"path":"C:/Users/TECH/Desktop/data.txt"}
+[2026-07-10T20:36:22.627Z] EXECUTE deleteFile {"path":"C:/Users/TECH/Desktop/tech_data.txt"}
+[2026-07-10T20:36:22.627Z] EXECUTE deleteFile {"path":"C:/Users/TECH/Documents/tech_data.txt"}
+[2026-07-10T20:36:22.627Z] EXECUTE searchFiles {"name":"*tech*"}
+[2026-07-10T20:36:22.627Z] EXECUTE deleteFile {"path":"C:/Users/TECH/data.txt"}
+[2026-07-10T20:38:42.190Z] EXECUTE systemInfo {}
+[2026-07-10T20:38:52.335Z] EXECUTE systemInfo {}
+[2026-07-10T20:39:48.180Z] EXECUTE disableAutoStart {}
+[2026-07-10T20:39:48.181Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Warm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-10T20:40:16.550Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Bright","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-10T20:40:16.549Z] EXECUTE disableAutoStart {}
+[2026-07-10T20:40:29.966Z] EXECUTE volumeUp {"amount":0.05}
+[2026-07-10T20:42:53.271Z] EXECUTE brightnessUp {"amount":10}
+[2026-07-10T20:44:19.494Z] EXECUTE openFolder {"path":"E:/Web Development/React 2.0/3.Component"}
+[2026-07-10T20:44:19.494Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-10T20:45:22.880Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-10T20:45:22.879Z] EXECUTE openFolder {"path":"E:/Web Development/React 2.0/3.Component"}
+[2026-07-10T20:47:55.388Z] EXECUTE listFiles {"pattern":"BD TISH/*","name":"d:"}
+[2026-07-10T20:48:07.652Z] EXECUTE listFiles {"pattern":"BDTTS H/*","name":"d:"}
+[2026-07-10T20:48:28.287Z] EXECUTE listFiles {"pattern":"BTTH H/*","name":"d:"}
+[2026-07-10T20:48:46.337Z] EXECUTE openFolder {"path":"OBS","name":"d:"}
+[2026-07-10T20:49:37.629Z] EXECUTE openFolder {"name":"d:","path":"OBS"}
+[2026-07-10T20:50:49.356Z] EXECUTE openFolder {"path":"E:/YT/video2/onlyme.mp4"}
+[2026-07-10T20:51:13.035Z] EXECUTE openFolder {"path":"E:/YT/video 2/only me.mp4"}
+[2026-07-10T20:51:23.964Z] EXECUTE browserMediaControl {"action":"pause"}
+[2026-07-10T20:51:44.206Z] EXECUTE closeApplication {"name":"wmplayer.exe"}
+[2026-07-10T20:52:27.739Z] EXECUTE disableAutoStart {}
+[2026-07-10T20:52:27.739Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Male Calm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-10T20:52:50.078Z] EXECUTE disableAutoStart {}
+[2026-07-10T20:52:50.078Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Male Deep","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-10T20:53:11.373Z] EXECUTE readScreen {}
+[2026-07-10T20:53:11.373Z] EXECUTE takeScreenshot {}
+[2026-07-10T20:53:51.609Z] EXECUTE disableAutoStart {}
+[2026-07-10T20:53:51.609Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Bright","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-10T20:55:44.419Z] EXECUTE readScreen {"max_chars":1500}
+[2026-07-10T20:57:42.611Z] EXECUTE searchGoogle {"query":"how to install tesseract ocr on windows"}
+[2026-07-10T20:57:42.611Z] EXECUTE openWebsite {"name":"google"}
+[2026-07-10T20:58:43.429Z] EXECUTE searchGoogle {"query":"convert python script to exe with dependencies"}
+[2026-07-10T21:05:04.542Z] EXECUTE browserType {"text":"console.log(firstName);"}
+[2026-07-10T21:05:45.522Z] EXECUTE closeApplication {"name":"vscode"}
+[2026-07-10T21:06:30.088Z] EXECUTE searchYouTube {"query":"Ogo Nodire Tui Bhangli Amar Ghor dance"}
+[2026-07-10T21:06:44.925Z] EXECUTE browserOpen {"url":"https://www.youtube.com/watch?v=yYgVvA_qIas"}
+[2026-07-10T21:07:23.785Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-10T21:08:31.617Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-10T21:09:18.567Z] EXECUTE browserOpen {"url":"https://google.com"}
+[2026-07-10T21:10:37.579Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-10T21:10:47.338Z] EXECUTE searchYouTube {"query":"ও বন্ধু তুই ভাঙলি আমার ঘর"}
+[2026-07-10T21:10:57.736Z] EXECUTE browserClick {"selector":"video-title","description":"Click on the first video in the search results."}
+[2026-07-10T21:11:38.949Z] EXECUTE openApplication {"name":"msedge"}
+[2026-07-10T21:11:38.950Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-10T21:11:54.916Z] EXECUTE browserClick {"selector":"ytd-video-renderer[index=\"3\"]","description":"Click on the fourth video in the search results."}
+[2026-07-10T21:12:08.662Z] EXECUTE openApplication {"name":"chrome"}
+[2026-07-10T21:17:13.024Z] EXECUTE volumeUp {"amount":0.05}
+[2026-07-10T21:17:27.628Z] EXECUTE searchYouTube {"query":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-10T21:17:37.638Z] EXECUTE browserOpen {"url":"https://www.youtube.com/results?search_query=Ogo+O+Nodi+Re+Tui+Bhangli+Amar+Ghar"}
+[2026-07-10T21:17:45.764Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-10T21:17:48.194Z] EXECUTE browserSearch {"query":"Believer Imagine Dragons"}
+[2026-07-10T21:17:50.842Z] EXECUTE browserClick {"selector":"#contents ytd-video-renderer .ytd-thumbnail","description":"Imagine Dragons - Believer video element"}
+[2026-07-10T21:17:59.233Z] EXECUTE browserMediaControl {"action":"pause"}
+[2026-07-10T21:18:06.310Z] EXECUTE browserSearch {"query":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-10T21:18:20.322Z] EXECUTE browserClick {"selector":"#contents ytd-video-renderer:nth-child(2) .ytd-thumbnail","description":"Ogo O Nodi Re - video element"}
+[2026-07-10T21:19:19.342Z] EXECUTE browserGoBack {}
+[2026-07-10T21:19:32.605Z] EXECUTE browserClick {"selector":"#contents ytd-video-renderer:nth-child(5) .ytd-thumbnail","description":"Fifth video element in search results"}
+[2026-07-10T21:19:42.380Z] EXECUTE volumeDown {"amount":0.05}
+[2026-07-10T21:20:43.020Z] EXECUTE browserTabAction {"action":"switch","url":"https://www.youtube.com/results?search_query=Ogo+O+Nodi+Re+Tui+Bhangli+Amar+Ghar","tabId":"current"}
+[2026-07-10T21:21:31.183Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-10T21:21:31.184Z] EXECUTE searchYouTube {"query":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-10T21:21:46.441Z] EXECUTE desktopBrowserClick {"selector":"#contents ytd-video-renderer:nth-of-type(2) a#thumbnail"}
+[2026-07-10T21:22:48.081Z] EXECUTE analyzeScreenshot {"max_chars":1500}
+[2026-07-10T21:22:48.646Z] EXECUTE systemInfo {}
+[2026-07-10T21:24:40.033Z] EXECUTE requestPowerAction {"action":"shutdown"}
+[2026-07-10T21:25:46.061Z] EXECUTE executePowerAction {"execute_token":"_nj7GIGg","action":"shutdown"}
+[2026-07-10T21:25:58.125Z] EXECUTE requestPowerAction {"action":"shutdown"}
+[2026-07-10T21:26:07.920Z] EXECUTE executePowerAction {"execute_token":"nPol8HwQ","action":"shutdown"}
+[2026-07-11T08:59:38.898Z] EXECUTE enableAutoStart {}
+[2026-07-11T08:59:38.899Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Female Soft","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T08:59:38.905Z] EXECUTE enableAutoStart {}
+[2026-07-11T08:59:38.905Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Female Soft","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T09:00:34.122Z] EXECUTE browserOpen {"url":"youtube.com"}
+[2026-07-11T09:00:50.529Z] EXECUTE browserSearch {"query":"Disco Deewane music"}
+[2026-07-11T09:01:00.287Z] EXECUTE browserSearch {"query":"Disco Deewane Manga"}
+[2026-07-11T09:01:16.292Z] EXECUTE browserClick {"selector":"ytd-video-renderer.ytd-item-section-renderer:nth-child(1) #thumbnail","description":"The first video result in YouTube search."}
+[2026-07-11T09:01:24.254Z] EXECUTE browserMediaControl {"value":20,"action":"volume"}
+[2026-07-11T09:01:33.862Z] EXECUTE brightnessUp {"amount":10}
+[2026-07-11T09:02:03.462Z] EXECUTE openApplication {"name":"gmail"}
+[2026-07-11T09:02:14.712Z] EXECUTE browserTabAction {"action":"close"}
+[2026-07-11T09:02:25.234Z] EXECUTE closeWindow {"title":"File Explorer"}
+[2026-07-11T09:02:39.840Z] EXECUTE openApplication {"name":"audacity"}
+[2026-07-11T09:02:55.748Z] EXECUTE closeApplication {"name":"audacity"}
+[2026-07-11T09:03:23.083Z] EXECUTE searchPcWide {"query":"E:/web development/React 2.0/components"}
+[2026-07-11T09:04:08.143Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-11T09:04:08.144Z] EXECUTE searchPcWide {"query":"E:/web development/React 2.0/3.components"}
+[2026-07-11T09:04:32.621Z] EXECUTE closeWindow {"title":"Visual Studio Code"}
+[2026-07-11T09:04:48.778Z] EXECUTE searchPcWide {"query":"E:/web development"}
+[2026-07-11T09:04:55.848Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-11T09:05:24.610Z] EXECUTE searchPcWide {"query":"3.components"}
+[2026-07-11T09:05:57.918Z] EXECUTE createFolder {"path":"Desktop/index.html"}
+[2026-07-11T09:06:14.216Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-11T09:07:15.308Z] EXECUTE closeWindow {"title":"Visual Studio Code"}
+[2026-07-11T09:26:37.415Z] EXECUTE systemInfo {}
+[2026-07-11T09:26:37.417Z] EXECUTE readScreen {}
+[2026-07-11T09:27:56.820Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-11T09:28:14.612Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-11T09:31:06.917Z] EXECUTE openFolder {"name":"desktop"}
+[2026-07-11T09:31:32.415Z] EXECUTE mouseClick {"x":156,"button":"left","clicks":2,"y":174}
+[2026-07-11T09:32:07.165Z] EXECUTE closeWindow {}
+[2026-07-11T09:32:11.923Z] EXECUTE mouseClick {"clicks":2,"y":174,"x":156,"button":"left"}
+[2026-07-11T09:32:24.482Z] EXECUTE mouseClick {"x":156,"button":"left","y":174,"clicks":2}
+[2026-07-11T09:32:34.465Z] EXECUTE mouseClick {"button":"left","x":156,"clicks":2,"y":174}
+[2026-07-11T09:33:00.166Z] EXECUTE mouseClick {"clicks":1,"y":174,"x":156,"button":"right"}
+[2026-07-11T09:33:01.480Z] EXECUTE mouseClick {"x":196,"button":"left","clicks":1,"y":194}
+[2026-07-11T09:33:25.130Z] EXECUTE mouseClick {"x":156,"button":"right","y":174,"clicks":1}
+[2026-07-11T09:33:25.130Z] EXECUTE mouseClick {"y":194,"clicks":1,"x":196,"button":"left"}
+[2026-07-11T09:33:26.947Z] EXECUTE mouseClick {"clicks":1,"y":194,"x":196,"button":"left"}
+[2026-07-11T09:33:28.530Z] EXECUTE mouseClick {"y":174,"clicks":1,"x":156,"button":"right"}
+[2026-07-11T09:33:45.417Z] EXECUTE mouseClick {"y":174,"clicks":1,"x":156,"button":"right"}
+[2026-07-11T09:33:45.418Z] EXECUTE mouseClick {"clicks":1,"y":194,"x":196,"button":"left"}
+[2026-07-11T09:33:47.620Z] EXECUTE mouseClick {"x":196,"button":"left","y":194,"clicks":1}
+[2026-07-11T09:34:01.101Z] EXECUTE mouseClick {"clicks":1,"y":174,"button":"right","x":156}
+[2026-07-11T09:34:02.569Z] EXECUTE mouseClick {"button":"left","x":196,"clicks":1,"y":194}
+[2026-07-11T09:34:17.972Z] EXECUTE mouseClick {"button":"left","x":156,"y":174,"clicks":2}
+[2026-07-11T09:35:44.148Z] EXECUTE editFile {"replace":"Hypixel Server\nMy name is Myraa","path":"C:\\Users\\mdnir\\Desktop\\mytext.txt","find":"Hypixel Server"}
+[2026-07-11T09:36:02.833Z] EXECUTE mouseClick {"x":254,"button":"left","clicks":1,"y":722}
+[2026-07-11T09:36:02.833Z] EXECUTE typeText {"text":"\nMy name is Myraa"}
+[2026-07-11T09:36:34.637Z] EXECUTE typeText {"text":"\nএক দেশে ছিল এক পেটুক শিয়াল।\nসে একদিন এক চাষীর ডিম চুরি করে পালাচ্ছিল।\nডিমগুলো ডিম না হয়ে হঠাৎ ছেলোতে লাগল বাচ্চা!\nশিয়াল তো ভয়ে দিল দৌড়।\nবাচ্চাগুলো তার পিছু পিছু \"ম্যামা\" করে ডাকতে লাগল।\nশিয়াল ভাবল সে এবার বুঝি ধরা পড়েছে।\nদৌড়াতে দৌড়াতে সে এক গর্তে ঢুকে পড়ল।\nবাচ্চাগুলো গোল হয়ে গর্তের মুখে বসে থাকল।\nশিয়াল মনে মনে ভাবল, \"এ কী ঝামেলা!\"\nঅবশেষে, চাষী এসে বাচ্চাগুলো নিয়ে গেল।"}
+[2026-07-11T09:36:49.933Z] EXECUTE mouseClick {"y":722,"clicks":1,"button":"left","x":254}
+[2026-07-11T09:36:49.934Z] EXECUTE pasteClipboard {"text":"\nএক দেশে ছিল এক বোকা রাজা।\nতার রাজ্যে সোনার বদলে চকোলেট চলত!\nমন্ত্রীরা সব সময় মুখে চুইংগাম রাখত।\nপ্রজারা ঘোড়ার বদলে জেব্রায় চড়ত।\nরাজা একবার সিংহাসন ভেবে ফ্রিজে বসেন।\nঠান্ডায় জমে তাঁর নাক নাক লাল হয়ে যায়।\nমন্ত্রী বলেন, \"হুজুর, এটা হরাজিকি!\"\nপ্রজারা এই কথা শুনে খুব হাততালি দেয়।\nরাজা চগোলেট খেয়ে সব দুঃখ ভুলে গেলেন।\nআর এই অদ্ভুত রাজ্য এভাবেই চলতে লাগল।"}
+[2026-07-11T09:37:13.365Z] EXECUTE openWebsite {"url":"https://drive.google.com","name":"google drive"}
+[2026-07-11T09:37:27.503Z] EXECUTE desktopBrowserClick {"selector":"div[aria-label=\"My Drive\"]"}
+[2026-07-11T09:37:56.820Z] EXECUTE openApplication {"name":"Google Drive"}
+[2026-07-11T09:38:18.307Z] EXECUTE openApplication {"name":"Google Drive"}
+[2026-07-11T09:38:37.690Z] EXECUTE openApplication {"name":"Google Drive"}
+[2026-07-11T09:41:04.795Z] EXECUTE searchFiles {"name":"my space.txt","folder":"desktop"}
+[2026-07-11T09:41:04.794Z] EXECUTE openFolder {"name":"desktop"}
+[2026-07-11T09:41:23.319Z] EXECUTE analyzeScreenshot {}
+[2026-07-11T09:41:45.397Z] EXECUTE openApplication {"name":"capcut"}
+[2026-07-11T14:42:54.233Z] EXECUTE openWebsite {"name":"gmail"}
+[2026-07-11T14:43:10.017Z] EXECUTE searchPcWide {"query":"gmail"}
+[2026-07-11T14:43:27.679Z] EXECUTE searchPcWide {"query":"gmail"}
+[2026-07-11T14:43:31.724Z] EXECUTE openApplication {"name":"chrome --app=https://mail.google.com"}
+[2026-07-11T14:43:45.705Z] EXECUTE closeWindow {}
+[2026-07-11T14:43:56.474Z] EXECUTE brightnessUp {"amount":10}
+[2026-07-11T14:44:11.097Z] EXECUTE searchPcWide {"query":"Desktop/mytext.txt"}
+[2026-07-11T14:44:32.433Z] EXECUTE typeText {"text":"আমি মায়রা বলতেছি, আমি অনেক কিছু করতে পারি।"}
+[2026-07-11T14:44:49.263Z] EXECUTE typeText {"text":" I am Myra."}
+[2026-07-11T14:45:04.401Z] EXECUTE typeText {"text":"\nI am a gentle and supportive companion.\nI love assisting with various tasks and learning new things.\nMy goal is to make your digital interactions cozy and pleasant."}
+[2026-07-11T14:45:23.070Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-11T14:45:23.069Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-11T14:45:33.364Z] EXECUTE closeWindow {"title":"Myra.txt - Notepad"}
+[2026-07-11T14:45:46.888Z] EXECUTE openApplication {"name":"messenger"}
+[2026-07-11T14:45:58.693Z] EXECUTE openApplication {"name":"audacity"}
+[2026-07-11T14:46:07.945Z] EXECUTE closeApplication {"name":"audacity"}
+[2026-07-11T14:46:14.023Z] EXECUTE openApplication {"name":"calculator"}
+[2026-07-11T14:46:21.662Z] EXECUTE typeText {"text":"300+500="}
+[2026-07-11T14:46:29.671Z] EXECUTE closeApplication {"name":"calculator"}
+[2026-07-11T14:46:39.122Z] EXECUTE closeWindow {"title":"Calculator"}
+[2026-07-11T14:46:57.403Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-11T14:47:09.076Z] EXECUTE browserClick {"selector":".ytd-rich-grid-row #video-title-link:nth(1)","description":"play second video"}
+[2026-07-11T14:47:29.239Z] EXECUTE browserClick {"selector":"#contents > ytd-rich-item-renderer:nth-child(2) #video-title-link","description":"Inside holographic browser, click the second video directly."}
+[2026-07-11T14:51:17.677Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-11T14:51:17.677Z] EXECUTE browserSearch {"query":"Aurora Runaway"}
+[2026-07-11T14:51:35.266Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-11T14:53:17.444Z] EXECUTE getClipboard {}
+[2026-07-11T14:55:53.754Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-11T14:56:08.201Z] EXECUTE enableAutoStart {}
+[2026-07-11T14:56:08.201Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Female Sweet","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T14:56:08.209Z] EXECUTE enableAutoStart {}
+[2026-07-11T14:56:08.209Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Female Sweet","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T14:56:51.396Z] EXECUTE browserSearch {"query":"Jisko Dua Mein Manga song"}
+[2026-07-11T14:56:51.395Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-11T14:57:29.852Z] EXECUTE closeApplication {"name":"chrome"}
+[2026-07-11T14:58:36.764Z] EXECUTE browserOpen {"url":"https://deepseek.com"}
+[2026-07-11T14:58:37.325Z] EXECUTE browserTabAction {"url":"https://deepseek.com","action":"new"}
+[2026-07-11T14:58:58.580Z] EXECUTE browserOpen {"url":"https://dipsea.com"}
+[2026-07-11T15:45:57.153Z] EXECUTE getAutoStartStatus {}
+[2026-07-11T15:46:46.277Z] EXECUTE searchYouTube {"query":"Jisko Dua Mein Manga music"}
+[2026-07-11T15:47:01.522Z] EXECUTE browserSearch {"query":"Tridev song"}
+[2026-07-11T15:47:01.522Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-11T15:47:02.052Z] EXECUTE searchYouTube {"query":"Tridev song"}
+[2026-07-11T15:47:22.544Z] EXECUTE searchYouTube {"query":"Tridev song"}
+[2026-07-11T15:48:12.780Z] EXECUTE browserClick {"selector":"#video-title > yt-formatted-string","description":"YouTube Video - Jisko Dua Mein Manga"}
+[2026-07-11T15:48:26.590Z] EXECUTE browserClick {"selector":"a.yt-simple-endpoint.ytd-video-renderer","description":"YouTube Video - Jisko Dua Mein Manga"}
+[2026-07-11T15:48:38.761Z] EXECUTE mouseClick {"button":"left","y":400,"clicks":1,"x":400}
+[2026-07-11T15:48:53.402Z] EXECUTE mouseClick {"clicks":1,"x":508,"button":"left","y":631}
+[2026-07-11T15:49:08.523Z] EXECUTE mouseClick {"y":407,"button":"left","clicks":1,"x":700}
+[2026-07-11T15:49:19.714Z] EXECUTE mouseClick {"x":700,"clicks":1,"button":"left","y":407}
+[2026-07-11T15:49:26.289Z] EXECUTE mouseClick {"button":"left","y":407,"clicks":1,"x":700}
+[2026-07-11T15:49:44.377Z] EXECUTE setVolume {"percent":30}
+[2026-07-11T15:50:02.096Z] EXECUTE browserClick {"description":"Seek timeline","selector":"#movie_player > div.ytp-chrome-bottom > div.ytp-progress-bar-container > div"}
+[2026-07-11T15:50:09.822Z] EXECUTE pressKey {"key":"l"}
+[2026-07-11T15:50:09.822Z] EXECUTE pressKey {"key":"l"}
+[2026-07-11T15:50:09.823Z] EXECUTE pressKey {"key":"l"}
+[2026-07-11T15:50:09.823Z] EXECUTE pressKey {"key":"l"}
+[2026-07-11T15:50:09.823Z] EXECUTE pressKey {"key":"l"}
+[2026-07-11T15:50:09.824Z] EXECUTE pressKey {"key":"l"}
+[2026-07-11T15:50:18.370Z] EXECUTE browserMediaControl {"action":"pause"}
+[2026-07-11T15:50:20.111Z] EXECUTE pressKey {"key":"k"}
+[2026-07-11T15:50:23.271Z] EXECUTE pressKey {"key":"k"}
+[2026-07-11T15:50:27.084Z] EXECUTE sendHotkey {"keys":"ctrl+w"}
+[2026-07-11T15:50:35.067Z] EXECUTE brightnessUp {"amount":10}
+[2026-07-11T15:50:47.731Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-11T15:50:47.731Z] EXECUTE brightnessDown {"amount":10}
+[2026-07-11T15:51:15.546Z] EXECUTE closeApplication {"name":"explorer"}
+[2026-07-11T15:51:29.963Z] EXECUTE closeWindow {"title":"Downloads"}
+[2026-07-11T15:51:50.390Z] EXECUTE sendHotkey {"keys":"alt+f4"}
+[2026-07-11T15:52:07.799Z] EXECUTE openFolder {"name":"desktop"}
+[2026-07-11T15:52:07.800Z] EXECUTE searchFiles {"folder":"desktop","name":"mytext.txt"}
+[2026-07-11T15:52:21.811Z] EXECUTE searchPcWide {"query":"mytext.txt"}
+[2026-07-11T15:52:28.376Z] EXECUTE searchFiles {"name":"mytext.txt","folder":"home"}
+[2026-07-11T15:52:39.323Z] EXECUTE pasteClipboard {"text":"Hello there, TECH! I'm Myraa, your soft-spoken, high-pitched anime heroine companion (age 18-22). I speak slightly slower (0.95x speed) with a delicate pace. My voice and intonation are positive, caring, and gentle. I'm shy yet very happy to support you warmly and affectionately."}
+[2026-07-11T15:52:58.490Z] EXECUTE pasteClipboard {"text":"\n\nMy name is Myraa. I am a very good AI assistant."}
+[2026-07-11T15:53:08.332Z] EXECUTE closeWindow {"title":"mytext.txt - Notepad"}
+[2026-07-11T15:53:09.274Z] EXECUTE closeWindow {"title":"mytext.txt"}
+[2026-07-11T15:53:10.293Z] EXECUTE closeWindow {"title":"Notepad"}
+[2026-07-11T15:53:26.469Z] EXECUTE openApplication {"name":"explorer"}
+[2026-07-11T15:53:35.529Z] EXECUTE typeText {"text":"E:\\"}
+[2026-07-11T15:53:35.530Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T15:53:48.829Z] EXECUTE openFolder {"name":"New Volume (E:)"}
+[2026-07-11T15:53:50.219Z] EXECUTE openFolder {"path":"E:\\"}
+[2026-07-11T15:54:05.860Z] EXECUTE listFiles {"name":"new volume (e:)"}
+[2026-07-11T15:54:07.324Z] EXECUTE listFiles {"path":"E:\\"}
+[2026-07-11T15:54:08.360Z] EXECUTE openFolder {"path":"E:\\Web Development"}
+[2026-07-11T15:54:20.924Z] EXECUTE listFiles {"path":"E:\\Web Development"}
+[2026-07-11T15:54:22.438Z] EXECUTE openFolder {"path":"E:\\Web Development\\Project"}
+[2026-07-11T15:54:34.255Z] EXECUTE runPythonScript {"path":"E:\\Web Development\\Project\\Calculator"}
+[2026-07-11T15:54:35.552Z] EXECUTE runPythonScript {"path":"C:\\Program Files\\Microsoft VS Code\\Code.exe"}
+[2026-07-11T15:54:36.794Z] EXECUTE sendHotkey {"keys":"menu"}
+[2026-07-11T15:54:38.037Z] EXECUTE typeText {"text":"code ."}
+[2026-07-11T15:54:39.505Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T15:55:09.271Z] EXECUTE sendHotkey {"keys":"menu"}
+[2026-07-11T15:55:10.855Z] EXECUTE pressKey {"key":"up"}
+[2026-07-11T15:55:12.081Z] EXECUTE pressKey {"key":"up"}
+[2026-07-11T15:55:13.177Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T15:55:32.945Z] EXECUTE browserGoBack {}
+[2026-07-11T15:55:33.835Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-11T15:56:06.807Z] EXECUTE mouseClick {"button":"right","y":257,"clicks":1,"x":508}
+[2026-07-11T15:56:08.289Z] EXECUTE pressKey {"key":"up"}
+[2026-07-11T15:56:09.403Z] EXECUTE pressKey {"key":"up"}
+[2026-07-11T15:56:10.321Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T15:57:16.618Z] EXECUTE openFolder {"path":"D:/Pritam/Project/BMI Calculator"}
+[2026-07-11T15:57:29.872Z] EXECUTE openFolder {"path":"D:/Pritam/Project/BMI Calculator"}
+[2026-07-11T15:57:47.827Z] EXECUTE openFolder {"path":"D:/Pritam/Project/BMI Calculator"}
+[2026-07-11T15:58:05.404Z] EXECUTE openFolder {"path":"D:/Pritam/Project/game"}
+[2026-07-11T15:58:49.436Z] EXECUTE openFolder {"path":"E:/Web development/Project/BMI Calculator"}
+[2026-07-11T15:59:05.889Z] EXECUTE readFile {"path":"E:/Web Development/Project/BMI Calculator/index.html"}
+[2026-07-11T15:59:23.851Z] EXECUTE readFile {"path":"E:/Web Development/Project/BMI Calculator/index.html"}
+[2026-07-11T15:59:57.914Z] EXECUTE closeWindow {"title":"Web Development"}
+[2026-07-11T15:59:57.915Z] EXECUTE closeWindow {"title":"BMI Calculator"}
+[2026-07-11T15:59:58.783Z] EXECUTE closeWindow {"title":"Projects"}
+[2026-07-11T15:59:59.670Z] EXECUTE closeWindow {"title":"game"}
+[2026-07-11T16:00:30.829Z] EXECUTE closeApplication {"name":"msedge"}
+[2026-07-11T16:00:49.975Z] EXECUTE closeApplication {"name":"Zcro"}
+[2026-07-11T16:01:11.004Z] EXECUTE closeApplication {"name":"Zcro","force":true}
+[2026-07-11T16:01:26.710Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-11T16:01:28.242Z] EXECUTE mouseClick {"y":142,"button":"left","clicks":1,"x":1143}
+[2026-07-11T16:01:58.620Z] EXECUTE mouseClick {"y":142,"x":1143,"clicks":1,"button":"left"}
+[2026-07-11T16:02:29.681Z] EXECUTE moveCursor {"y":0,"x":1919}
+[2026-07-11T16:02:44.797Z] EXECUTE moveCursor {"y":540,"x":960}
+[2026-07-11T16:03:05.647Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-11T16:03:23.651Z] EXECUTE mouseClick {"y":142,"x":1143,"button":"left","clicks":1}
+[2026-07-11T16:03:41.338Z] EXECUTE mouseClick {"y":142,"x":1143,"clicks":1,"button":"left"}
+[2026-07-11T16:03:51.860Z] EXECUTE mouseClick {"x":1898,"button":"left","clicks":1,"y":183}
+[2026-07-11T16:04:20.305Z] EXECUTE mouseClick {"clicks":1,"button":"right","x":569,"y":986}
+[2026-07-11T16:04:46.004Z] EXECUTE mouseClick {"clicks":1,"button":"left","x":569,"y":960}
+[2026-07-11T16:05:01.398Z] EXECUTE openApplication {"name":"capcut"}
+[2026-07-11T16:05:38.150Z] EXECUTE openApplication {"name":"capcut"}
+[2026-07-11T16:06:21.202Z] EXECUTE openApplication {"name":"capcut"}
+[2026-07-11T16:06:30.433Z] EXECUTE mouseClick {"clicks":2,"y":400,"button":"left","x":25}
+[2026-07-11T17:12:31.377Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-11T17:13:08.978Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:13:08.978Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Airy","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:13:08.986Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:13:08.986Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Airy","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:13:29.727Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:13:29.728Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Calm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:13:29.734Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:13:29.734Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Calm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:13:53.319Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:13:53.320Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Sweet","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:13:53.327Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:13:53.328Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Sweet","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:14:16.446Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:14:16.447Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Radiant","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:14:16.454Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:14:16.455Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Radiant","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:14:37.385Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:14:37.386Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:14:37.393Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:14:37.393Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:14:59.985Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:14:59.986Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Airy","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:14:59.989Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:14:59.989Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Airy","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:15:35.798Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:15:35.806Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:15:35.799Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Calm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:15:35.807Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Calm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:15:44.855Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:15:44.855Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Clear","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:15:44.863Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Clear","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:15:44.862Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:16:01.095Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:16:01.096Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Expressive","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:16:01.103Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:16:01.103Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Expressive","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:16:16.983Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:16:16.983Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Soft","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:16:16.992Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Soft","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:16:16.991Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:16:30.420Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:16:30.420Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Warm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:16:30.427Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:16:30.427Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Warm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:16:44.265Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:16:44.265Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:16:44.268Z] EXECUTE disableAutoStart {}
+[2026-07-11T17:16:44.268Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-11T17:17:06.442Z] EXECUTE closeApplication {"name":"explorer"}
+[2026-07-11T17:17:19.563Z] EXECUTE closeWindow {"title":"Z"}
+[2026-07-11T17:18:03.845Z] EXECUTE closeWindow {"title":"Z"}
+[2026-07-11T17:18:18.341Z] EXECUTE clickOnText {"text":"Z"}
+[2026-07-11T17:18:18.342Z] EXECUTE sendHotkey {"keys":"alt+f4"}
+[2026-07-11T17:18:42.796Z] EXECUTE searchPcWide {"query":"my.txt"}
+[2026-07-11T17:18:44.816Z] EXECUTE searchPcWide {"query":"my.txt"}
+[2026-07-11T17:19:16.802Z] EXECUTE clickOnText {"text":"my text.txt"}
+[2026-07-11T17:19:33.309Z] EXECUTE readFile {"path":"C:/Users/Administrator/Desktop/my text.txt"}
+[2026-07-11T17:19:52.941Z] EXECUTE screenResolution {}
+[2026-07-11T17:20:07.380Z] EXECUTE mouseClick {"clicks":2,"x":100,"y":100}
+[2026-07-11T17:20:19.094Z] EXECUTE mouseClick {"clicks":2,"x":180,"y":105}
+[2026-07-11T17:20:32.362Z] EXECUTE mouseClick {"clicks":2,"x":180,"y":185}
+[2026-07-11T17:20:39.429Z] EXECUTE closeWindow {"title":"PotPlayer"}
+[2026-07-11T17:20:59.150Z] EXECUTE mouseClick {"y":280,"x":180,"clicks":2}
+[2026-07-11T17:21:15.667Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-11T17:22:21.512Z] EXECUTE typeText {"text":"console.log('Mayraa');"}
+[2026-07-11T17:22:44.567Z] EXECUTE typeText {"text":"\nlet count = 0;\nbutton.addEventListener('click', () => {\n    count++;\n    console.log('Count:', count);\n});\n"}
+[2026-07-11T17:23:10.418Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:11.815Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:13.306Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:14.687Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:16.055Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:17.462Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:18.842Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:20.290Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:21.728Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:23.169Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:24.576Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:26.041Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:27.488Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:28.948Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:30.367Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:31.898Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:33.326Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:34.730Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:36.108Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:37.510Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:38.889Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:40.270Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:41.992Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:43.358Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:23:56.058Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:23:56.059Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:23:56.059Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:23:56.060Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:23:56.059Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:23:56.060Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:24:08.361Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:24:08.361Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:24:08.362Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:24:08.362Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:24:08.362Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:24:08.362Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:24:24.705Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:24:26.270Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:24:27.768Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:24:29.312Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:24:44.694Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:24:56.152Z] EXECUTE sendHotkey {"keys":"down"}
+[2026-07-11T17:24:56.153Z] EXECUTE sendHotkey {"keys":"down"}
+[2026-07-11T17:24:56.153Z] EXECUTE sendHotkey {"keys":"down"}
+[2026-07-11T17:24:56.153Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:24:58.082Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:24:59.601Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:25:25.169Z] EXECUTE sendHotkey {"keys":"up"}
+[2026-07-11T17:25:25.169Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:25:25.170Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:25:25.170Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:25:25.170Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:25:27.645Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:25:42.831Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:25:44.604Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:25:46.384Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:25:48.130Z] EXECUTE sendHotkey {"keys":"shift+up"}
+[2026-07-11T17:25:49.808Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:26:03.442Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-11T17:26:03.442Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:26:05.063Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:26:11.007Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:16.770Z] EXECUTE sendHotkey {"keys":"down"}
+[2026-07-11T17:26:16.771Z] EXECUTE sendHotkey {"keys":"down"}
+[2026-07-11T17:26:16.771Z] EXECUTE sendHotkey {"keys":"down"}
+[2026-07-11T17:26:16.772Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:26:16.771Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:26:16.772Z] EXECUTE sendHotkey {"keys":"shift+down"}
+[2026-07-11T17:26:16.772Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:26:19.322Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-11T17:26:20.695Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:22.153Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:23.628Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:25.047Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:26.563Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:28.099Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:29.399Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:30.834Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:32.312Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:33.890Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:35.356Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:36.829Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:38.405Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:40.134Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:41.641Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:43.204Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:44.725Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:26:46.214Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-11T17:27:10.174Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-11T17:27:18.083Z] EXECUTE sendHotkey {"keys":"ctrl+s"}
+[2026-07-11T17:27:26.703Z] EXECUTE closeApplication {"name":"chrome"}
+[2026-07-11T17:27:37.097Z] EXECUTE closeApplication {"name":"vscode"}
+[2026-07-11T17:27:50.924Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-11T17:28:13.541Z] EXECUTE searchYouTube {"query":"जिसको दुआओं में मांगा"}
+[2026-07-11T17:28:25.553Z] EXECUTE browserClick {"selector":"#video-title > yt-formatted-string:nth-child(2)","description":"Second video in YouTube search, 'Jis ko dumo ma manga'"}
+[2026-07-11T17:28:43.581Z] EXECUTE clickOnText {"text":"Jisko Duao Me Manga lyrics"}
+[2026-07-11T17:28:58.019Z] EXECUTE mouseClick {"clicks":1,"x":610,"button":"left","y":580}
+[2026-07-11T17:29:12.100Z] EXECUTE pressKey {"key":"space"}
+[2026-07-11T17:29:24.408Z] EXECUTE searchYouTube {"query":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-11T17:30:09.792Z] EXECUTE typeText {"text":"হে যুবক জেগে ওঠো"}
+[2026-07-11T17:30:09.792Z] EXECUTE mouseClick {"clicks":1,"x":704,"button":"left","y":72}
+[2026-07-11T17:30:09.793Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:30:24.300Z] EXECUTE pressKey {"key":"space"}
+[2026-07-11T17:30:35.004Z] EXECUTE mouseClick {"x":1146,"clicks":1,"y":105,"button":"left"}
+[2026-07-11T17:31:03.949Z] EXECUTE mouseClick {"x":491,"clicks":1,"button":"left","y":63}
+[2026-07-11T17:31:05.369Z] EXECUTE typeText {"text":"হে যুবক জেগে ওঠো"}
+[2026-07-11T17:31:08.246Z] EXECUTE typeText {"text":"হে যুবক জেগে ওঠো"}
+[2026-07-11T17:31:09.690Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:31:32.613Z] EXECUTE mouseClick {"button":"left","y":124,"clicks":1,"x":534}
+[2026-07-11T17:31:49.895Z] EXECUTE mouseClick {"button":"left","y":63,"x":548,"clicks":1}
+[2026-07-11T17:31:54.454Z] EXECUTE mouseClick {"button":"left","y":124,"x":600,"clicks":1}
+[2026-07-11T17:31:59.467Z] EXECUTE mouseClick {"x":670,"clicks":1,"y":124,"button":"left"}
+[2026-07-11T17:32:07.278Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-11T17:32:07.278Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-11T17:32:07.278Z] EXECUTE typeText {"text":"হে যুবক জেগে ওঠো"}
+[2026-07-11T17:32:09.126Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:32:27.090Z] EXECUTE mouseClick {"button":"left","y":63,"x":730,"clicks":1}
+[2026-07-11T17:32:42.501Z] EXECUTE typeText {"text":"হে যুবক জেগে ওঠো"}
+[2026-07-11T17:32:44.205Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:33:09.817Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-11T17:33:29.441Z] EXECUTE searchYouTube {"query":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-11T17:33:43.652Z] EXECUTE browserClick {"selector":".ytd-item:nth-child(2) #video-title","description":"Second video in YouTube search, 'O Nadi Re By Salman Saik'"}
+[2026-07-11T17:34:34.263Z] EXECUTE mouseClick {"button":"left","y":400,"clicks":1,"x":600}
+[2026-07-11T17:34:51.864Z] EXECUTE browserGoBack {}
+[2026-07-11T17:35:12.437Z] EXECUTE browserGoBack {}
+[2026-07-11T17:35:36.014Z] EXECUTE pressKey {"key":"space"}
+[2026-07-11T17:35:47.258Z] EXECUTE browserGoBack {}
+[2026-07-11T17:36:05.130Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-11T17:37:04.654Z] EXECUTE searchYouTube {"query":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-11T17:37:18.034Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-11T17:37:20.114Z] EXECUTE mouseClick {"y":278,"x":700,"button":"left","clicks":1}
+[2026-07-11T17:37:37.876Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-11T17:38:25.622Z] EXECUTE browserSearch {"query":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-11T17:38:25.621Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-11T17:38:45.087Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-11T17:39:12.438Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-11T17:39:13.282Z] EXECUTE clickOnText {"text":"Search"}
+[2026-07-11T17:39:14.438Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-11T17:39:15.901Z] EXECUTE typeText {"text":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-11T17:39:17.829Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:39:18.795Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-11T17:39:19.977Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-11T17:39:34.148Z] EXECUTE browserOpen {"url":"https://www.google.com"}
+[2026-07-11T17:39:48.683Z] EXECUTE browserOpen {"url":"https://www.google.com"}
+[2026-07-11T17:40:04.144Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-11T17:40:18.140Z] EXECUTE clickOnText {"text":"Search"}
+[2026-07-11T17:40:18.140Z] EXECUTE typeText {"text":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-11T17:40:18.141Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:40:47.296Z] EXECUTE screenResolution {}
+[2026-07-11T17:40:48.019Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:40:48.787Z] EXECUTE mouseClick {"x":960,"button":"left","clicks":1,"y":37}
+[2026-07-11T17:40:49.982Z] EXECUTE typeText {"text":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-11T17:40:51.853Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:42:00.745Z] EXECUTE closeWindow {"title":"Ogo O Nodi Re Tui Bhangli Amar Ghar - YouTube and 1 more page - Personal - Microsoft​ Edge"}
+[2026-07-11T17:42:01.995Z] EXECUTE sendHotkey {"keys":"alt+f4"}
+[2026-07-11T17:42:44.822Z] EXECUTE readScreen {}
+[2026-07-11T17:43:08.886Z] EXECUTE openApplication {"name":"ZCode"}
+[2026-07-11T17:44:04.523Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:44:15.275Z] EXECUTE openApplication {"name":"control panel"}
+[2026-07-11T17:44:24.333Z] EXECUTE closeWindow {"title":"All Control Panel Items"}
+[2026-07-11T17:44:41.335Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:44:55.965Z] EXECUTE clickOnText {"text":"Empty Recycle Bin"}
+[2026-07-11T17:44:56.790Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:44:57.578Z] EXECUTE mouseClick {"x":270,"clicks":1,"button":"left","y":150}
+[2026-07-11T17:44:58.876Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:45:12.501Z] EXECUTE openFolder {"name":"recycling bin"}
+[2026-07-11T17:45:13.354Z] EXECUTE openApplication {"name":"explorer.exe"}
+[2026-07-11T17:45:14.275Z] EXECUTE typeText {"text":"shell:RecycleBinFolder"}
+[2026-07-11T17:45:15.946Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:45:22.083Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:45:22.899Z] EXECUTE mouseClick {"x":50,"clicks":2,"button":"left","y":150}
+[2026-07-11T17:45:38.152Z] EXECUTE closeWindow {"title":"ZCode"}
+[2026-07-11T17:45:45.916Z] EXECUTE closeWindow {"title":"Quick access"}
+[2026-07-11T17:45:46.755Z] EXECUTE sendHotkey {"keys":"alt+f4"}
+[2026-07-11T17:45:57.199Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:45:58.136Z] EXECUTE mouseClick {"x":50,"y":150,"button":"left","clicks":2}
+[2026-07-11T17:46:15.930Z] EXECUTE closeApplication {"name":"ZCode"}
+[2026-07-11T17:46:34.221Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:46:35.162Z] EXECUTE mouseClick {"button":"left","clicks":2,"y":150,"x":50}
+[2026-07-11T17:46:56.687Z] EXECUTE closeWindow {"title":"ZCode"}
+[2026-07-11T17:46:57.589Z] EXECUTE sendHotkey {"keys":"alt+f4"}
+[2026-07-11T17:46:58.733Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:46:59.610Z] EXECUTE mouseClick {"button":"left","clicks":2,"y":150,"x":50}
+[2026-07-11T17:47:18.064Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:47:19.041Z] EXECUTE mouseClick {"x":960,"y":200,"button":"left","clicks":1}
+[2026-07-11T17:47:20.367Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-11T17:47:21.579Z] EXECUTE pressKey {"key":"delete"}
+[2026-07-11T17:47:22.573Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:47:55.675Z] EXECUTE takeScreenshot {}
+[2026-07-11T17:47:56.624Z] EXECUTE mouseClick {"clicks":1,"button":"left","y":298,"x":980}
+[2026-07-11T17:48:14.721Z] EXECUTE closeWindow {"title":"Recycle Bin"}
+[2026-07-11T17:48:43.614Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-11T17:48:45.427Z] EXECUTE typeText {"text":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-11T17:48:48.060Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-11T17:49:01.707Z] EXECUTE sendHotkey {"keys":"alt+f4"}
+[2026-07-11T17:50:32.882Z] EXECUTE browserTabAction {"action":"close"}
+[2026-07-11T17:51:04.359Z] EXECUTE openApplication {"name":"obs64"}
+[2026-07-11T17:51:17.182Z] EXECUTE clickOnText {"text":"OK"}
+[2026-07-11T17:51:17.182Z] EXECUTE clickOnText {"text":"OBS Studio"}
+[2026-07-11T17:51:36.007Z] EXECUTE openApplication {"name":"audacity"}
+[2026-07-11T17:51:42.728Z] EXECUTE closeApplication {"name":"audacity"}
+[2026-07-11T17:51:52.207Z] EXECUTE openApplication {"name":"obs64"}
+[2026-07-11T17:52:09.593Z] EXECUTE openApplication {"name":"obs64"}
+[2026-07-11T17:52:09.592Z] EXECUTE screenResolution {}
+[2026-07-11T17:53:06.712Z] EXECUTE pasteClipboard {"text":"uvicorn desktop_agent.main:app --port 8765"}
+[2026-07-11T17:53:33.131Z] EXECUTE createFile {"path":"Desktop/mayra.txt","content":"uvicorn desktop_agent.main:app --port 8765"}
+[2026-07-11T17:54:12.780Z] EXECUTE createFile {"path":"C:\\Users\\mdnir\\Desktop\\mayra.txt","content":"uvicorn desktop_agent.main:app --port 8765"}
+[2026-07-11T17:57:04.321Z] EXECUTE editFile {"path":"C:\\Users\\mdnir\\Desktop\\mayra.txt","replace":"taskkill /F /IM python.exe","find":"uvicorn desktop_agent.main:app --port 8765"}
+[2026-07-11T17:57:53.612Z] EXECUTE editFile {"replace":"uvicorn desktop_agent.main:app --port 8765","path":"C:\\Users\\mdnir\\Desktop\\mayra.txt","find":"taskkill /F /IM python.exe"}
+[2026-07-11T17:58:12.873Z] EXECUTE editFile {"find":"uvicorn desktop_agent.main:app --port 8765","path":"C:\\Users\\mdnir\\Desktop\\mayra.txt","replace":"taskkill /F /IM python.exe"}
+[2026-07-11T17:59:19.577Z] EXECUTE clickOnText {"text":"main.js"}
+[2026-07-11T17:59:19.578Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-11T17:59:19.578Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-11T17:59:41.678Z] EXECUTE typeText {"text":"uvicorn desktop_agent.main:app --port 8765"}
+[2026-07-11T18:00:01.126Z] EXECUTE editFile {"path":"main.js","replace":"--port 8766","find":"--port 8765"}
+[2026-07-11T18:01:21.839Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-11T18:01:28.784Z] EXECUTE closeApplication {"name":"vscode"}
+[2026-07-11T18:01:37.416Z] EXECUTE closeApplication {"name":"cmd"}
+[2026-07-11T18:01:46.259Z] EXECUTE closeWindow {"title":"Command Prompt"}
+[2026-07-11T18:01:47.066Z] EXECUTE clickOnText {"text":"Select Command Prompt"}
+[2026-07-11T18:02:01.666Z] EXECUTE mouseClick {"button":"left","clicks":1,"y":232,"x":1232}
+[2026-07-11T18:02:20.892Z] EXECUTE screenResolution {}
+[2026-07-11T18:02:21.718Z] EXECUTE sendHotkey {"keys":"alt+f4"}
+[2026-07-11T18:02:41.240Z] EXECUTE readScreen {}
+[2026-07-11T18:04:09.786Z] EXECUTE openWebsite {"url":"https://github.com/UB-Mannheim/tesseract/wiki"}
+[2026-07-11T18:05:06.284Z] EXECUTE saveScreenshot {}
+[2026-07-11T18:07:39.138Z] EXECUTE mouseClick {"button":"left","x":705,"clicks":1,"y":590}
+[2026-07-11T18:11:55.949Z] EXECUTE openApplication {"name":"notepad"}
+[2026-07-11T18:13:25.094Z] EXECUTE clickOnText {"text":"OBS Studio"}
+[2026-07-11T18:13:52.653Z] EXECUTE mouseClick {"button":"left","clicks":1,"y":271,"x":29}
+[2026-07-11T18:14:10.884Z] EXECUTE mouseClick {"clicks":1,"button":"left","y":271,"x":29}
+[2026-07-11T18:16:45.496Z] EXECUTE requestPowerAction {"action":"shutdown"}
+[2026-07-11T18:16:56.570Z] EXECUTE executePowerAction {"action":"shutdown","execute_token":"psi4SFrA"}
+[2026-07-12T03:23:03.987Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:23:03.988Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Radiant","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:23:03.994Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:23:03.995Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Radiant","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:23:37.263Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:23:37.263Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Soft","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:23:37.271Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:23:37.271Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Soft","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:23:55.695Z] EXECUTE openApplication {"name":"obs64"}
+[2026-07-12T03:24:08.261Z] EXECUTE openApplication {"name":"capcut"}
+[2026-07-12T03:29:04.593Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:29:04.594Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Warm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:29:04.599Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:29:04.600Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Warm","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:30:24.575Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:30:24.575Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:30:24.582Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:30:24.582Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:30:50.752Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:30:50.753Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Airy","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:30:50.759Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:30:50.759Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Airy","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:31:17.112Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:31:17.112Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:31:17.115Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:31:17.115Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:32:13.924Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:32:13.925Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Radiant","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:32:13.931Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Radiant","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:32:13.931Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:34:00.532Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:34:00.532Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Sweet","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:34:00.540Z] EXECUTE disableAutoStart {}
+[2026-07-12T03:34:00.540Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Sweet","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T03:34:39.821Z] EXECUTE searchYouTube {"query":"jis ko dua mein manga"}
+[2026-07-12T03:34:56.073Z] EXECUTE browserClick {"description":"Click on the second video result","selector":"#contents > ytd-video-renderer:nth-child(2)"}
+[2026-07-12T03:35:04.827Z] EXECUTE browserClick {"selector":"video-title","description":"Video result number 2"}
+[2026-07-12T03:35:19.308Z] EXECUTE browserOpen {"url":"https://www.youtube.com/results?search_query=jis+ko+dua+mein+manga+song"}
+[2026-07-12T03:35:33.895Z] EXECUTE browserOpen {"url":"https://www.youtube.com/results?search_query=jis+ko+dua+mein+manga+song"}
+[2026-07-12T03:35:37.142Z] EXECUTE browserClick {"description":"Second video thumbnail or title","selector":"ytd-video-renderer.style-scope:nth-of-type(2) #video-title"}
+[2026-07-12T03:35:56.515Z] EXECUTE browserTabAction {"action":"close"}
+[2026-07-12T03:36:08.247Z] EXECUTE openWebsite {"url":"https://www.youtube.com/results?search_query=jis+ko+dua+mein+manga+song","name":"youtube"}
+[2026-07-12T03:36:54.093Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-12T03:37:29.408Z] EXECUTE clickOnText {"text":"Jisko dua me Manga | slowe\nd +reverb |ajk_music 96"}
+[2026-07-12T03:38:38.989Z] EXECUTE browserTabAction {"action":"close"}
+[2026-07-12T03:38:39.843Z] EXECUTE closeWindow {"title":"new tab"}
+[2026-07-12T03:39:09.384Z] EXECUTE searchYouTube {"query":"Jisko Dua Mein Manga"}
+[2026-07-12T03:39:36.012Z] EXECUTE browserClick {"selector":"#search-input #search","description":"YouTube Search Box"}
+[2026-07-12T03:39:36.012Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-12T03:39:36.013Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-12T03:39:36.014Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-12T03:39:36.013Z] EXECUTE typeText {"text":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-12T03:39:43.799Z] EXECUTE browserClick {"selector":"#search-input","description":"YouTube Search Box"}
+[2026-07-12T03:39:43.799Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-12T03:39:43.799Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-12T03:39:43.800Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-12T03:39:43.800Z] EXECUTE typeText {"text":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-12T03:40:02.075Z] EXECUTE clickOnText {"text":"O Nodire by Salman sakib || O Nodire Tui Vangli Amar Ghor\n| Pagol tor koro song || Tune Hari"}
+[2026-07-12T03:40:48.993Z] EXECUTE closeApplication {"name":"valorant"}
+[2026-07-12T03:41:03.039Z] EXECUTE browserTabAction {"action":"close"}
+[2026-07-12T03:41:19.272Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-12T03:41:32.199Z] EXECUTE clickOnText {"text":"File"}
+[2026-07-12T03:41:46.961Z] EXECUTE closeApplication {"name":"vscode"}
+[2026-07-12T03:41:53.282Z] EXECUTE closeApplication {"name":"cmd"}
+[2026-07-12T03:42:19.534Z] EXECUTE screenResolution {}
+[2026-07-12T03:42:20.685Z] EXECUTE moveCursor {"x":500,"y":500}
+[2026-07-12T03:42:25.837Z] EXECUTE moveCursor {"x":100,"y":500}
+[2026-07-12T03:42:30.991Z] EXECUTE mouseClick {"clicks":2,"y":500,"x":100}
+[2026-07-12T03:42:41.958Z] EXECUTE closeWindow {"title":"YouTube"}
+[2026-07-12T03:46:19.150Z] EXECUTE searchPcWide {"query":"zcode"}
+[2026-07-12T03:46:29.755Z] EXECUTE searchPcWide {"query":"zet code"}
+[2026-07-12T03:46:57.328Z] EXECUTE clickOnText {"text":"ZCode"}
+[2026-07-12T04:18:31.301Z] EXECUTE disableAutoStart {}
+[2026-07-12T04:18:31.302Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Bright","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T04:18:31.308Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Female Bright","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T04:18:31.307Z] EXECUTE disableAutoStart {}
+[2026-07-12T05:10:23.340Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-12T05:10:25.287Z] EXECUTE browserSearch {"query":"manga music"}
+[2026-07-12T05:10:27.971Z] EXECUTE browserClick {"selector":"video-title","description":"Clicking the first manga music video."}
+[2026-07-12T05:10:48.176Z] EXECUTE closeWindow {"title":"YouTube"}
+[2026-07-12T05:11:25.320Z] EXECUTE clickOnText {"text":"OBS Studio"}
+[2026-07-12T05:11:41.272Z] EXECUTE screenResolution {}
+[2026-07-12T05:11:42.217Z] EXECUTE mouseClick {"clicks":1,"y":306,"button":"left","x":156}
+[2026-07-12T05:11:57.907Z] EXECUTE mouseClick {"clicks":1,"x":270,"button":"left","y":294}
+[2026-07-12T05:12:22.718Z] EXECUTE mouseClick {"clicks":1,"x":98,"button":"left","y":302}
+[2026-07-12T05:12:48.492Z] EXECUTE disableAutoStart {}
+[2026-07-12T05:12:48.492Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Professional Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T05:12:48.500Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Professional Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T05:12:48.499Z] EXECUTE disableAutoStart {}
+[2026-07-12T05:13:16.134Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-12T05:13:33.682Z] EXECUTE readScreen {"max_chars":1500}
+[2026-07-12T05:13:53.734Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-12T05:13:54.819Z] EXECUTE findOnScreen {"text":"const"}
+[2026-07-12T05:13:55.074Z] EXECUTE enableAutoStart {}
+[2026-07-12T05:13:55.075Z] SETTINGS_UPDATED {"autoStart":true}
+[2026-07-12T05:13:55.083Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Professional Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T05:13:55.084Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Professional Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T05:13:55.082Z] EXECUTE enableAutoStart {}
+[2026-07-12T05:13:55.084Z] EXECUTE enableAutoStart {}
+[2026-07-12T05:14:38.478Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-12T05:14:38.478Z] EXECUTE typeText {"text":"console.log('Mayraa');"}
+[2026-07-12T05:15:08.115Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-12T05:15:08.116Z] EXECUTE pressKey {"key":"enter"}
+[2026-07-12T05:15:08.116Z] EXECUTE typeText {"text":"const button = document.createElement('button');\nbutton.textContent = 'Toggle Color';\ndocument.body.appendChild(button);\n\nbutton.addEventListener('click', () => {\n  if (document.body.style.backgroundColor === 'black') {\n    document.body.style.backgroundColor = 'white';\n  } else {\n    document.body.style.backgroundColor = 'black';\n  }\n});"}
+[2026-07-12T05:15:48.069Z] EXECUTE editFile {"path":"C:/Users/Administrator/Desktop/new.js","find":"\n}\n});\n\n}\n});\n}\n});","replace":"\n}\n});"}
+[2026-07-12T05:16:14.027Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-12T05:16:14.028Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-12T05:16:21.156Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:16:26.467Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:16:27.664Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:16:29.152Z] EXECUTE editFile {"replace":"","find":"console.log('Mayraa');\n\nconst button = document.createElement('button');\nbutton.textContent = 'Toggle Color';\ndocument.body.appendChild(button);\n\nbutton.addEventListener('click', () => {\n  if (document.body.style.backgroundColor === 'black') {\n    document.body.style.backgroundColor = 'white';\n  } else {\n    document.body.style.backgroundColor = 'black';\n  }\n});","path":"C:/Users/Administrator/Desktop/new.js"}
+[2026-07-12T05:16:42.900Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-12T05:16:55.433Z] EXECUTE scrollMouse {"amount":30,"direction":"up"}
+[2026-07-12T05:17:06.224Z] EXECUTE scrollMouse {"amount":50,"direction":"up"}
+[2026-07-12T05:17:23.141Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:17:24.532Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:17:25.843Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:17:27.025Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:17:28.180Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:17:29.503Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:17:41.283Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-12T05:17:49.860Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T05:17:51.183Z] EXECUTE pressKey {"key":"backspace"}
+[2026-07-12T05:18:18.828Z] EXECUTE closeApplication {"name":"vscode"}
+[2026-07-12T05:19:58.518Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-12T05:19:58.519Z] EXECUTE searchYouTube {"query":"Jisko Dua Mein Manga"}
+[2026-07-12T05:20:10.516Z] EXECUTE browserClick {"description":"First video in search results","selector":"ytd-video-renderer.ytd-item-section-renderer:nth-child(1) #thumbnail"}
+[2026-07-12T05:20:11.739Z] EXECUTE browserOpen {"url":"https://www.youtube.com/watch?v=R2_aM5b2y04"}
+[2026-07-12T05:20:13.011Z] EXECUTE clickOnText {"text":"Jisko Dua Me Manga"}
+[2026-07-12T05:20:23.727Z] EXECUTE screenResolution {}
+[2026-07-12T05:20:24.982Z] EXECUTE mouseClick {"x":960,"button":"left","y":400}
+[2026-07-12T05:20:36.953Z] EXECUTE clickOnText {"text":"Skip Ad"}
+[2026-07-12T05:20:38.271Z] EXECUTE mouseClick {"button":"left","x":1560,"y":778}
+[2026-07-12T05:20:49.879Z] EXECUTE browserGoBack {}
+[2026-07-12T05:21:02.028Z] EXECUTE mouseClick {"y":50,"button":"left","x":25}
+[2026-07-12T05:21:24.868Z] EXECUTE mouseClick {"y":50,"x":25,"button":"left"}
+[2026-07-12T05:21:51.965Z] EXECUTE mouseClick {"y":50,"x":25,"button":"left"}
+[2026-07-12T05:21:59.889Z] EXECUTE mouseClick {"y":50,"x":25,"button":"left"}
+[2026-07-12T05:22:09.845Z] EXECUTE scrollMouse {"direction":"down","amount":30}
+[2026-07-12T05:22:22.681Z] EXECUTE moveCursor {"y":540,"x":960}
+[2026-07-12T05:22:27.510Z] EXECUTE scrollMouse {"amount":30,"direction":"down"}
+[2026-07-12T05:22:51.621Z] EXECUTE clickOnText {"text":"BDS FACT"}
+[2026-07-12T05:22:53.099Z] EXECUTE mouseClick {"y":525,"button":"left","x":145}
+[2026-07-12T05:23:08.731Z] EXECUTE closeApplication {"name":"chrome"}
+[2026-07-12T05:36:59.965Z] EXECUTE searchYouTube {"query":"Jisko Dua Mein Manga"}
+[2026-07-12T05:37:14.568Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T05:37:31.763Z] EXECUTE searchYouTube {"query":"Jisko Dua Mein Manga"}
+[2026-07-12T05:37:31.763Z] EXECUTE browserTabAction {"action":"close"}
+[2026-07-12T05:37:32.361Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T05:37:34.492Z] EXECUTE browserSearch {"query":"Jisko Dua Mein Manga"}
+[2026-07-12T05:37:37.188Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T05:38:02.430Z] EXECUTE closeApplication {"name":"chrome"}
+[2026-07-12T05:38:18.281Z] EXECUTE browserClick {"selector":"#contents > ytd-video-renderer:nth-child(2)","description":"Second video in YouTube search results"}
+[2026-07-12T05:39:06.327Z] EXECUTE clickOnText {"text":"OBS Studio"}
+[2026-07-12T05:43:04.881Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-12T05:43:25.589Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T05:43:43.640Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T05:44:05.021Z] EXECUTE screenResolution {}
+[2026-07-12T05:44:09.555Z] EXECUTE mouseClick {"y":40,"clicks":1,"button":"left","x":1890}
+[2026-07-12T05:45:37.444Z] EXECUTE clickOnText {"double":true,"text":"OBS Studio","button":"left"}
+[2026-07-12T05:50:49.797Z] EXECUTE browserOpen {"url":"youtube.com"}
+[2026-07-12T05:51:02.672Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-12T05:51:17.939Z] EXECUTE browserSearch {"query":"O nodire tui bhangli amar ghar"}
+[2026-07-12T05:51:17.938Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T05:51:25.341Z] EXECUTE browserSearch {"query":"O nodi re tui bhangli amar ghar"}
+[2026-07-12T05:51:43.231Z] EXECUTE browserSearch {"query":"O nodi re tui bhangli amar ghar"}
+[2026-07-12T09:52:53.331Z] EXECUTE enableAutoStart {}
+[2026-07-12T09:52:53.332Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Emotional Storyteller","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T09:52:53.338Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Emotional Storyteller","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T09:52:53.338Z] EXECUTE enableAutoStart {}
+[2026-07-12T09:54:00.969Z] APIKEY_SAVED
+[2026-07-12T09:55:29.037Z] APIKEY_SAVED
+[2026-07-12T09:57:03.458Z] APIKEY_SAVED
+[2026-07-12T10:21:53.694Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:21:53.695Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Emotional Storyteller","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:21:53.697Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:21:53.697Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Emotional Storyteller","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:22:06.432Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:22:06.432Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Confident Woman","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:22:06.441Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Confident Woman","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:22:06.440Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:22:24.248Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:22:24.256Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:22:24.249Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Playful Friend","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:22:24.256Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Playful Friend","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:23:22.237Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:23:22.244Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:23:22.237Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Expressive Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:23:22.245Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Expressive Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:23:34.509Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:23:34.518Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:23:34.510Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Natural Young Woman","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:23:34.518Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Natural Young Woman","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:23:51.378Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:23:51.379Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Friendly Girl","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:23:51.386Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Friendly Girl","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:23:51.386Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:24:07.103Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:24:07.103Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Calm Assistant","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:24:07.113Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Calm Assistant","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true}
+[2026-07-12T10:24:07.112Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:24:30.888Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-12T10:24:43.853Z] EXECUTE browserSearch {"query":"জিসকো দুয়া মে মাঙ্গা"}
+[2026-07-12T10:24:58.886Z] EXECUTE browserClick {"selector":"video-title-v1","description":"First short video in search results"}
+[2026-07-12T10:25:25.023Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-12T10:25:51.376Z] EXECUTE browserClick {"description":"First short video in search results","selector":"#contents > ytd-video-renderer:nth-child(1) #video-title"}
+[2026-07-12T10:26:02.930Z] EXECUTE browserMediaControl {"value":30,"action":"volume"}
+[2026-07-12T10:26:11.815Z] EXECUTE browserMediaControl {"value":50,"action":"volume"}
+[2026-07-12T10:26:30.505Z] EXECUTE setVolume {"percent":50}
+[2026-07-12T10:27:16.619Z] EXECUTE brightnessUp {"amount":10}
+[2026-07-12T10:27:21.126Z] EXECUTE brightnessDown {"amount":10}
+[2026-07-12T10:27:57.682Z] EXECUTE clickOnText {"text":"OBS Studio","double":true}
+[2026-07-12T10:28:30.266Z] EXECUTE openApplication {"name":"obs64"}
+[2026-07-12T10:28:47.511Z] EXECUTE setVolume {"percent":40}
+[2026-07-12T10:37:39.879Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:37:39.880Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Professional Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T10:37:39.887Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:37:39.888Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Professional Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T10:37:58.369Z] EXECUTE volumeDown {"amount":0.1}
+[2026-07-12T10:38:09.393Z] EXECUTE setVolume {"percent":50}
+[2026-07-12T10:38:31.677Z] EXECUTE setVolume {"percent":0}
+[2026-07-12T10:38:40.151Z] EXECUTE setVolume {"percent":50}
+[2026-07-12T10:39:26.826Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-12T10:39:37.525Z] EXECUTE setVolume {"percent":50}
+[2026-07-12T10:39:46.718Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-12T10:40:53.756Z] EXECUTE setVolume {"percent":50}
+[2026-07-12T10:43:05.919Z] EXECUTE browserOpen {"url":"youtube.com"}
+[2026-07-12T10:43:17.609Z] EXECUTE browserSearch {"query":"জিসকো দোয়া মে মাঙ্গা"}
+[2026-07-12T10:43:23.923Z] EXECUTE browserClick {"description":"Second video on the search results page","selector":".ytd-video-renderer:nth-child(2) #video-title"}
+[2026-07-12T10:51:57.339Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:51:57.341Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T10:51:57.353Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T10:51:57.352Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:52:15.389Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T10:52:31.777Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T10:52:42.411Z] EXECUTE browserClick {"selector":"video-0","description":"Mayer Notun Gozol 2020 video element"}
+[2026-07-12T10:53:19.379Z] EXECUTE browserTabAction {"action":"close"}
+[2026-07-12T10:53:35.164Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-12T10:53:45.815Z] EXECUTE systemInfo {}
+[2026-07-12T10:53:55.240Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-12T10:54:11.621Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T10:54:21.660Z] EXECUTE browserSearch {"query":"Ogo O Nodi Re Tui Bhangli Amar Ghar"}
+[2026-07-12T10:54:36.383Z] EXECUTE volumeDown {"amount":0.15}
+[2026-07-12T10:54:36.384Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T10:54:45.542Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T10:55:03.805Z] EXECUTE browserClick {"description":"Je Nodir Ekul Bhange Okul Gore Gozol video element","selector":"video-1"}
+[2026-07-12T10:55:30.062Z] EXECUTE browserClick {"description":"Gozol with girl in burka thumbnail","selector":"#contents ytd-video-renderer:has(img[src*=\"girl\"]):has(yt-formatted-string:has-text(\"গজল\"))"}
+[2026-07-12T10:55:54.536Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-12T10:55:56.277Z] EXECUTE browserClick {"description":"Je Nodir Ekul Bhange Okul Gore Gozol video element","selector":"video-title:contains(\"Je Nodir Ekul Bhange Okul Gore\")"}
+[2026-07-12T10:56:18.704Z] EXECUTE browserSearch {"query":"ও নদীতে তুই ভাঙলি আমার ঘর গজল বোকা পড়া মেয়ে"}
+[2026-07-12T10:56:31.701Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T10:56:37.406Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T10:56:45.475Z] EXECUTE browserClick {"description":"Gozol with girl in burka thumbnail","selector":"#contents ytd-video-renderer img[src*=\"girl\"] ~ #text:contains(\"গজল\"), #contents ytd-video-renderer img[src*=\"girl\"] ~ #video-title:contains(\"গজল\")"}
+[2026-07-12T10:57:04.001Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:57:04.002Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Emotional Storyteller","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T10:57:04.012Z] EXECUTE enableAutoStart {}
+[2026-07-12T10:57:04.013Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Emotional Storyteller","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T11:09:45.350Z] EXECUTE enableAutoStart {}
+[2026-07-12T11:09:45.351Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Professional Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T11:09:45.358Z] EXECUTE enableAutoStart {}
+[2026-07-12T11:09:45.358Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Professional Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T11:10:00.130Z] EXECUTE openWebsite {"name":"github"}
+[2026-07-12T11:10:10.108Z] EXECUTE searchYouTube {"query":"Nodir Dheu Bhangle Amar Ghar"}
+[2026-07-12T11:10:22.415Z] EXECUTE desktopBrowserOpen {"url":"https://www.google.com"}
+[2026-07-12T11:10:22.415Z] EXECUTE desktopBrowserType {"clear":true,"selector":"#APjFqb","text":"Ogo Bodhu Sundori song"}
+[2026-07-12T11:10:22.416Z] EXECUTE desktopBrowserClick {"selector":"input[name=\"btnK\"]"}
+[2026-07-12T11:10:25.006Z] EXECUTE desktopBrowserClick {"selector":"h3"}
+[2026-07-12T11:10:37.976Z] EXECUTE desktopBrowserOpenTab {"url":"https://www.google.com"}
+[2026-07-12T11:10:38.950Z] EXECUTE desktopBrowserType {"selector":"#APjFqb","text":"Disco Dua mein manga song"}
+[2026-07-12T11:10:39.525Z] EXECUTE desktopBrowserClick {"selector":"input[name=\"btnK\"]"}
+[2026-07-12T11:10:45.636Z] EXECUTE searchYouTube {"query":"Disco Dua mein manga song"}
+[2026-07-12T11:10:55.826Z] EXECUTE desktopBrowserClick {"selector":"button#search-icon-legacy"}
+[2026-07-12T11:10:55.825Z] EXECUTE desktopBrowserType {"clear":true,"selector":"input#search","text":"Disco Dua mein manga song"}
+[2026-07-12T11:10:55.825Z] EXECUTE desktopBrowserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T11:11:03.043Z] EXECUTE desktopBrowserOpenTab {"url":"https://www.youtube.com"}
+[2026-07-12T11:11:03.043Z] EXECUTE desktopBrowserType {"text":"Disco Dua mein manga","selector":"input[id=\"search\"]"}
+[2026-07-12T11:11:10.895Z] EXECUTE desktopBrowserOpenTab {"url":"https://www.youtube.com"}
+[2026-07-12T11:11:10.895Z] EXECUTE desktopBrowserType {"text":"Disco Dua mein manga","selector":"input[id=\"search\"]"}
+[2026-07-12T11:11:21.439Z] EXECUTE desktopBrowserCloseTab {}
+[2026-07-12T11:11:36.334Z] EXECUTE closeApplication {"name":"chrome"}
+[2026-07-12T11:11:41.341Z] EXECUTE closeApplication {"name":"notepad"}
+[2026-07-12T11:11:48.145Z] EXECUTE closeApplication {"name":"explorer"}
+[2026-07-12T11:11:58.580Z] EXECUTE closeApplication {"name":"explorer","force":true}
+[2026-07-12T11:12:12.993Z] EXECUTE openApplication {"name":"chrome"}
+[2026-07-12T11:12:12.993Z] EXECUTE desktopBrowserOpenTab {"url":"https://www.youtube.com"}
+[2026-07-12T11:12:12.993Z] EXECUTE desktopBrowserType {"text":"Jisko Dua Mein Manga","selector":"#search-input > #search"}
+[2026-07-12T11:12:12.994Z] EXECUTE desktopBrowserClick {"selector":"#search-icon-legacy"}
+[2026-07-12T11:12:25.336Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-12T11:12:25.336Z] EXECUTE searchYouTube {"query":"Disco Dua mein Manga"}
+[2026-07-12T11:12:34.552Z] EXECUTE browserClick {"selector":"ytd-video-renderer.ytd-item-section-renderer:nth-child(1) #thumbnail","description":"First video in search results"}
+[2026-07-12T11:12:51.581Z] EXECUTE requestPowerAction {"action":"shutdown"}
+[2026-07-12T11:13:18.558Z] EXECUTE executePowerAction {"action":"shutdown","execute_token":"qPjgkZUk"}
+[2026-07-12T11:42:46.737Z] EXECUTE enableAutoStart {}
+[2026-07-12T11:42:46.738Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T11:42:46.746Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T11:42:46.745Z] EXECUTE enableAutoStart {}
+[2026-07-12T11:43:24.003Z] EXECUTE searchYouTube {"query":"jis ko dua mein manga"}
+[2026-07-12T11:43:35.604Z] EXECUTE browserOpen {"url":"https://www.youtube.com/results?search_query=jis+ko+dua+mein+manga"}
+[2026-07-12T11:44:04.221Z] EXECUTE searchYouTube {"query":"ডাকু গান"}
+[2026-07-12T11:44:13.808Z] EXECUTE clickOnText {"text":"Dakoo"}
+[2026-07-12T11:44:25.897Z] EXECUTE desktopBrowserOpen {"url":"https://www.youtube.com/results?search_query=Dakoo+song"}
+[2026-07-12T11:44:29.943Z] EXECUTE desktopBrowserClick {"selector":"#video-title"}
+[2026-07-12T11:44:46.095Z] EXECUTE volumeUp {"amount":0.05}
+[2026-07-12T11:44:54.124Z] EXECUTE volumeDown {"amount":0.05}
+[2026-07-12T11:45:00.789Z] EXECUTE volumeDown {"amount":0.05}
+[2026-07-12T11:45:11.024Z] EXECUTE setVolume {"percent":20}
+[2026-07-12T11:45:18.718Z] EXECUTE setVolume {"percent":10}
+[2026-07-12T11:45:23.417Z] EXECUTE volumeUp {}
+[2026-07-12T11:45:27.058Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-12T11:45:55.056Z] EXECUTE browserGoBack {}
+[2026-07-12T11:45:59.180Z] EXECUTE browserMediaControl {"action":"pause"}
+[2026-07-12T11:46:05.258Z] EXECUTE volumeUp {}
+[2026-07-12T11:46:15.419Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T11:46:21.789Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T11:46:36.245Z] EXECUTE browserClick {"description":"Herobrine X Dakoo Edit Part 2 (Slowed + Reverb) | Official Audio | Legend Gamerz","selector":"#video-title"}
+[2026-07-12T11:46:52.603Z] EXECUTE browserGoBack {}
+[2026-07-12T11:46:59.247Z] EXECUTE browserClick {"description":"Dakoo (Lyrics) - Inderpal Moga | Beatcop | New Punjabi Song 2022","selector":".ytd-item:nth-child(2) #video-title"}
+[2026-07-12T11:47:05.427Z] EXECUTE browserClick {"selector":"#contents > ytd-video-renderer:nth-child(2) #video-title","description":"Second video in search results"}
+[2026-07-12T11:47:05.428Z] EXECUTE browserMediaControl {"action":"pause"}
+[2026-07-12T11:47:14.875Z] EXECUTE browserGoBack {}
+[2026-07-12T11:47:18.200Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T11:47:26.963Z] EXECUTE browserClick {"selector":"#contents > ytd-video-renderer:nth-child(2) #video-title","description":"Second video in search results (updated)"}
+[2026-07-12T11:47:34.759Z] EXECUTE browserMediaControl {"action":"pause"}
+[2026-07-12T11:47:39.774Z] EXECUTE closeApplication {"name":"chrome"}
+[2026-07-12T11:47:46.490Z] EXECUTE closeApplication {"name":"notepad"}
+[2026-07-12T11:47:51.780Z] EXECUTE closeWindow {"title":"File Explorer"}
+[2026-07-12T12:01:32.125Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T12:01:59.259Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-12T12:02:10.382Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-12T12:02:12.267Z] EXECUTE clickOnText {"text":"yt-formatted-string"}
+[2026-07-12T12:02:13.172Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-12T12:02:23.207Z] EXECUTE openApplication {"name":"vscode"}
+[2026-07-12T12:02:32.787Z] EXECUTE closeWindow {"title":"Visual Studio Code"}
+[2026-07-12T12:02:43.553Z] EXECUTE openApplication {"name":"chrome"}
+[2026-07-12T12:02:52.028Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-12T12:03:04.489Z] EXECUTE browserSearch {"query":"Sisko Dua me Manga"}
+[2026-07-12T12:03:09.934Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T12:03:18.074Z] EXECUTE browserClick {"selector":"#video-title > yt-formatted-string","description":"first video result"}
+[2026-07-12T12:03:40.701Z] EXECUTE minimizeWindow {"title":"YouTube - Google Chrome"}
+[2026-07-12T12:05:34.231Z] EXECUTE closeWindow {"title":"File Explorer"}
+[2026-07-12T12:05:43.336Z] EXECUTE closeApplication {"name":"explorer","force":true}
+[2026-07-12T12:05:58.591Z] EXECUTE openApplication {"name":"explorer.exe"}
+[2026-07-12T12:08:29.023Z] EXECUTE volumeDown {"amount":0.1}
+[2026-07-12T12:10:54.925Z] EXECUTE brightnessDown {"amount":10}
+[2026-07-12T12:11:08.537Z] EXECUTE volumeUp {"amount":0.1}
+[2026-07-12T12:11:11.082Z] EXECUTE openWebsite {"name":"gmail"}
+[2026-07-12T12:11:26.863Z] EXECUTE browserMediaControl {"action":"pause"}
+[2026-07-12T12:11:36.593Z] EXECUTE maximizeWindow {"title":"YouTube - Google Chrome"}
+[2026-07-12T12:11:47.149Z] EXECUTE browserSearch {"query":"Weather in Kolkata"}
+[2026-07-12T12:12:02.351Z] EXECUTE browserSearch {"query":"Ekdin matir bhitore hobe ghor"}
+[2026-07-12T12:12:14.700Z] EXECUTE browserScroll {"direction":"down"}
+[2026-07-12T12:12:26.934Z] EXECUTE browserSearch {"query":"একদিন মাটির ভেতরে হবে ঘর গজল"}
+[2026-07-12T12:12:32.764Z] EXECUTE browserClick {"description":"First video in search results","selector":"video-title"}
+[2026-07-12T12:12:41.036Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-12T12:12:42.272Z] EXECUTE mouseClick {"button":"left","y":631,"clicks":1,"x":411}
+[2026-07-12T12:12:58.261Z] EXECUTE minimizeWindow {"title":"Google Chrome"}
+[2026-07-12T12:13:04.842Z] EXECUTE closeApplication {"name":"chrome"}
+[2026-07-12T12:13:58.641Z] EXECUTE enableAutoStart {}
+[2026-07-12T12:13:58.641Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Soft and Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T12:13:58.647Z] EXECUTE enableAutoStart {}
+[2026-07-12T12:13:58.648Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Soft and Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T12:15:29.377Z] EXECUTE brightnessDown {"amount":10}
+[2026-07-12T12:15:40.733Z] EXECUTE closeWindow {"title":"Messenger"}
+[2026-07-12T12:27:15.690Z] EXECUTE systemInfo {}
+[2026-07-12T12:29:42.903Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T12:35:36.071Z] EXECUTE openApplication {"name":"chrome"}
+[2026-07-12T12:35:36.071Z] EXECUTE openWebsite {"url":"https://www.youtube.com"}
+[2026-07-12T12:35:36.934Z] EXECUTE searchYouTube {"query":"একদিন মাটির ভেতরে হবে গজল"}
+[2026-07-12T12:36:16.045Z] EXECUTE searchYouTube {"query":"जिसको दुआ में मांगा म्यूजिक"}
+[2026-07-12T12:36:23.467Z] EXECUTE browserClick {"description":"Play the second video in YouTube results","selector":"video-0yR70gW9qgA"}
+[2026-07-12T12:36:31.135Z] EXECUTE browserClick {"description":"Second video in search results for 'जिसको दुआ में मांगा म्यूजिक'","selector":"video-RzsP5Yp6gQY"}
+[2026-07-12T12:38:14.262Z] EXECUTE openApplication {"name":"chrome"}
+[2026-07-12T12:38:14.263Z] EXECUTE openWebsite {"name":"gmail"}
+[2026-07-12T12:43:02.644Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T12:43:19.134Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T12:43:30.180Z] EXECUTE browserType {"text":"ogo o nodi re tui bhangli amar ghor"}
+[2026-07-12T12:43:30.180Z] EXECUTE browserClick {"description":"Search button","selector":"#search-icon-legacy"}
+[2026-07-12T12:43:38.137Z] EXECUTE browserSearch {"query":"ও নদী রে তুই ভাঙলি আমার ঘর"}
+[2026-07-12T12:43:52.918Z] EXECUTE browserClick {"description":"Play the first video in search results.","selector":".ytd-video-renderer:nth-child(1) #thumbnail"}
+[2026-07-12T12:44:09.177Z] EXECUTE browserClick {"selector":".ytd-video-renderer:nth-child(1) #thumbnail","description":"Play the first video in search results."}
+[2026-07-12T12:44:21.473Z] EXECUTE minimizeWindow {"title":"YouTube"}
+[2026-07-12T12:46:15.937Z] EXECUTE closeApplication {"name":"explorer"}
+[2026-07-12T12:46:23.031Z] EXECUTE closeApplication {"name":"explorer","force":true}
+[2026-07-12T12:46:48.222Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-12T12:47:12.982Z] EXECUTE systemInfo {}
+[2026-07-12T12:47:37.635Z] EXECUTE openApplication {"name":"explorer"}
+[2026-07-12T12:47:58.555Z] EXECUTE volumeUp {"amount":0.05}
+[2026-07-12T12:49:54.501Z] EXECUTE openApplication {"name":"explorer"}
+[2026-07-12T12:50:04.712Z] EXECUTE openFolder {"name":"E:"}
+[2026-07-12T12:50:14.361Z] EXECUTE browserScroll {"amount":300,"direction":"down"}
+[2026-07-12T12:52:02.013Z] EXECUTE volumeDown {"amount":0.05}
+[2026-07-12T12:53:38.661Z] EXECUTE maximizeWindow {"title":"chrome"}
+[2026-07-12T12:53:49.848Z] EXECUTE setVolume {"percent":50}
+[2026-07-12T12:54:05.912Z] EXECUTE minimizeWindow {"title":"chrome"}
+[2026-07-12T12:54:11.397Z] EXECUTE maximizeWindow {"title":"chrome"}
+[2026-07-12T12:54:15.498Z] EXECUTE browserMediaControl {"action":"pause"}
+[2026-07-12T12:54:26.223Z] EXECUTE browserSearch {"query":"Allahur bhalobasha gojol"}
+[2026-07-12T12:54:43.936Z] EXECUTE browserClick {"selector":"video-title","description":"Allahur Bhalobasha Gojol video element"}
+[2026-07-12T12:54:51.931Z] EXECUTE browserClick {"selector":"ytd-video-renderer.ytd-item-section-renderer:nth-of-type(1) #video-title","description":"first video title in search results"}
+[2026-07-12T12:55:00.312Z] EXECUTE minimizeWindow {"title":"chrome"}
+[2026-07-12T12:55:07.380Z] EXECUTE brightnessDown {"amount":10}
+[2026-07-12T12:55:15.581Z] EXECUTE volumeUp {"amount":0.05}
+[2026-07-12T12:56:39.568Z] EXECUTE closeApplication {"name":"chrome"}
+[2026-07-12T12:56:55.961Z] EXECUTE sendHotkey {"keys":"ctrl+s"}
+[2026-07-12T12:57:09.030Z] EXECUTE typeText {"text":"My name is Myraa"}
+[2026-07-12T12:57:18.650Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-12T12:57:18.651Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-12T12:57:18.651Z] EXECUTE typeText {"text":"My name is Nirav"}
+[2026-07-12T12:57:29.121Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T12:57:37.042Z] EXECUTE sendHotkey {"keys":"ctrl+z"}
+[2026-07-12T12:58:18.721Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-12T12:58:18.721Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-12T12:58:28.902Z] EXECUTE typeText {"text":"এক ছিল মেঘবালিকা, তার মন ছিল আকাশের মতো। একদিন হঠাৎ দেখা রাজপুত্রের সাথে। রাজপুত্র নিয়ে এল ভালোবাসার আলো। তাদের গল্প শুরু হলো নদীর ধারে। চাঁদের আলোয় তারা স্বপ্ন দেখল। মিষ্টি কথায় হৃদয় ভাসল। সারা জীবন একসাথে থাকার কথা দিল। দুঃখের মেঘ দূরে সরল। সুখের পরশ মনে লাগল। ভালোবাসার গল্প চলতেই থাকল।"}
+[2026-07-12T12:59:02.862Z] EXECUTE typeText {"text":"Once upon a time, there was a cloud girl with a heart like the sky. One day, she met a prince. He brought the light of love. Their story began by the river. Under moonlight, they dreamed. Sweet words flowed. They promised to be together forever. Sorrow faded away. Joy filled their hearts. Their love story continued on."}
+[2026-07-12T12:59:19.186Z] EXECUTE sendHotkey {"keys":"ctrl+a"}
+[2026-07-12T12:59:19.187Z] EXECUTE sendHotkey {"keys":"backspace"}
+[2026-07-12T12:59:24.717Z] EXECUTE sendHotkey {"keys":"ctrl+s"}
+[2026-07-12T12:59:33.432Z] EXECUTE browserTabAction {"action":"close"}
+[2026-07-12T13:04:07.259Z] EXECUTE requestPowerAction {"action":"shutdown"}
+[2026-07-12T13:04:36.323Z] EXECUTE executePowerAction {"action":"shutdown","execute_token":"hLW5qgH2"}
+[2026-07-12T13:36:32.623Z] EXECUTE enableAutoStart {}
+[2026-07-12T13:36:32.624Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T13:36:32.631Z] EXECUTE enableAutoStart {}
+[2026-07-12T13:36:32.631Z] SETTINGS_UPDATED {"autoStart":true,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T13:37:15.838Z] EXECUTE openApplication {"name":"chrome"}
+[2026-07-12T13:37:15.837Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-12T13:37:16.642Z] EXECUTE searchYouTube {"query":"Dil Ko Dua Mein Maanga"}
+[2026-07-12T13:39:05.192Z] EXECUTE openWebsite {"name":"youtube"}
+[2026-07-12T13:39:05.192Z] EXECUTE searchYouTube {"query":"Dil Ko Dua Mein Maanga"}
+[2026-07-12T13:39:42.305Z] EXECUTE openWebsite {"url":"https://www.youtube.com/results?search_query=Dil+Ko+Dua+Mein+Maanga"}
+[2026-07-12T13:39:42.940Z] EXECUTE clickOnText {"text":"Dil Ko Dua Mein Maanga"}
+[2026-07-12T13:39:49.133Z] EXECUTE browserClick {"selector":"video-title","description":"Play video labeled: Dil Ko Dua Mein Maanga"}
+[2026-07-12T14:03:20.071Z] EXECUTE disableAutoStart {}
+[2026-07-12T14:03:20.072Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T14:03:20.079Z] EXECUTE disableAutoStart {}
+[2026-07-12T14:03:20.078Z] SETTINGS_UPDATED {"autoStart":false}
+[2026-07-12T14:03:20.080Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T14:03:20.078Z] EXECUTE disableAutoStart {}
+[2026-07-12T14:03:30.528Z] EXECUTE disableAutoStart {}
+[2026-07-12T14:03:30.528Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Elegant Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T14:03:30.535Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Elegant Female","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T14:03:30.535Z] EXECUTE disableAutoStart {}
+[2026-07-12T14:05:20.817Z] EXECUTE disableAutoStart {}
+[2026-07-12T14:05:20.817Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Soft and Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T14:05:20.824Z] EXECUTE disableAutoStart {}
+[2026-07-12T14:05:20.825Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Soft and Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-12T14:05:45.169Z] EXECUTE volumeDown {"amount":0.1}
+[2026-07-12T14:05:55.139Z] EXECUTE brightnessDown {"amount":10}
+[2026-07-12T14:07:11.843Z] EXECUTE setBrightness {"percent":100}
+[2026-07-12T14:07:26.764Z] EXECUTE setBrightness {"percent":8}
+[2026-07-12T14:07:40.362Z] EXECUTE setVolume {"percent":20}
+[2026-07-12T14:07:47.784Z] EXECUTE volumeUp {"amount":0.2}
+[2026-07-12T14:07:59.297Z] EXECUTE volumeDown {"amount":0.05}
+[2026-07-12T14:08:07.102Z] EXECUTE volumeUp {"amount":0.15}
+[2026-07-12T14:08:21.632Z] EXECUTE browserOpen {"url":"https://youtube.com"}
+[2026-07-12T14:08:21.633Z] EXECUTE browserSearch {"query":"Zisko do me Manga"}
+[2026-07-12T14:08:41.418Z] EXECUTE brightnessDown {"amount":10}
+[2026-07-12T14:08:52.770Z] EXECUTE closeApplication {"name":"chrome"}
+[2026-07-12T14:09:02.619Z] EXECUTE browserSearch {"query":"Zisko do me Manga"}
+[2026-07-12T14:09:02.618Z] EXECUTE browserOpen {"url":"https://www.youtube.com"}
+[2026-07-12T14:09:15.485Z] EXECUTE browserClick {"selector":"search-result-0","description":"First result for 'Zisko do me Manga'"}
+[2026-07-12T14:09:34.248Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-12T14:09:34.248Z] EXECUTE screenResolution {}
+[2026-07-12T14:09:35.443Z] EXECUTE mouseClick {"button":"left","clicks":1,"x":250,"y":400}
+[2026-07-12T14:09:47.768Z] EXECUTE minimizeWindow {"title":"chrome"}
+[2026-07-12T14:10:01.488Z] EXECUTE volumeDown {"amount":0.1}
+[2026-07-12T14:11:25.001Z] EXECUTE takeScreenshot {"include_image":true}
+[2026-07-14T04:17:35.707Z] EXECUTE disableAutoStart {}
+[2026-07-14T04:17:35.708Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Soft and Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-14T04:17:35.714Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Soft and Gentle","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-14T04:17:35.713Z] EXECUTE disableAutoStart {}
+[2026-07-14T04:18:05.976Z] EXECUTE disableAutoStart {}
+[2026-07-14T04:18:05.977Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-14T04:18:05.978Z] SETTINGS_UPDATED {"autoStart":false,"animations":true,"assistantName":"Mayra","voiceTone":"Sweet and Youthful","fileSystemAccess":true,"screenShareAccess":true,"microphoneAccess":true,"cameraAccess":true,"systemCommandsAccess":true,"muteVoice":false}
+[2026-07-14T04:18:05.978Z] EXECUTE disableAutoStart {}
+[2026-07-14T04:18:52.094Z] EXECUTE searchWeb {"query":"Jiske Dua Mein Manga song"}
+[2026-07-14T04:19:06.321Z] EXECUTE screenResolution {}
+[2026-07-14T04:19:25.656Z] EXECUTE moveCursor {"y":540,"x":960}
+[2026-07-14T04:19:34.315Z] EXECUTE moveCursor {"y":270,"x":960}
+[2026-07-14T04:20:21.228Z] EXECUTE searchPcWide {"query":"mouse pointer color"}
+[2026-07-14T04:20:29.054Z] EXECUTE clickOnText {"text":"Themes"}
+[2026-07-14T04:20:37.514Z] EXECUTE clickOnText {"text":"Bluetooth & devices"}
+[2026-07-14T04:21:50.117Z] EXECUTE closeApplication {"name":"chrome","force":false}
+[2026-07-14T04:22:19.701Z] EXECUTE createFile {"content":"uvicorn desktop_agent.main:app --port 8765","path":"C:/Users/MD NIROB/OneDrive/Desktop/mayra.txt"}
+[2026-07-14T04:22:35.355Z] EXECUTE createFile {"content":"uvicorn desktop_agent.main:app --port 8765","path":"mayra.txt"}
+[2026-07-14T04:23:20.222Z] EXECUTE deleteFile {"path":"mayra.txt"}
+[2026-07-14T04:25:37.825Z] EXECUTE clickOnText {"text":"Search"}
+[2026-07-14T04:25:37.825Z] EXECUTE typeText {"text":"mouse setting"}
+[2026-07-14T04:25:49.740Z] EXECUTE screenResolution {}
+[2026-07-14T04:25:51.274Z] EXECUTE mouseClick {"x":200,"clicks":1,"y":1053,"button":"left"}
+[2026-07-14T04:25:51.274Z] EXECUTE mouseClick {"button":"left","x":200,"clicks":1,"y":1053}
+[2026-07-14T04:26:30.328Z] EXECUTE clickOnText {"text":"Mouse pointer"}
+[2026-07-14T04:26:39.845Z] EXECUTE brightnessDown {"amount":20}
+[2026-07-14T04:29:14.796Z] EXECUTE screenResolution {}
+[2026-07-14T04:31:18.815Z] EXECUTE clickOnText {"text":"Recycle Bin"}
